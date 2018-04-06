@@ -8,9 +8,9 @@ Feel free to submit code changes/optimizations/updates
 
 Instructions for use
 
-1) Add master_keys to below array (replace X's)
+1) Add master_keys to array (replace X's)
 2) Add package2_key_source (replace X's)
-3) Add titlekek_source ((replace X's)
+3) Add titlekek_source (replace X's)
 4) Save file and Open a command window
 
 pip install pycrypto
