@@ -1,6 +1,8 @@
 # deriveSwitchKeys
 SocraticBliss (Mastarifla)
+
 Copyright 2018 All rights reserved
+
 Feel free to submit code changes/optimizations/updates
 
 
@@ -12,6 +14,7 @@ Instructions for use (replace X's)
 4) Save file and Open a command window
 
 pip install pycrypto
+
 python deriveSwitchMasterKeys(PK21andTitle).py
 
 Copy generated keys to your keys.dat
