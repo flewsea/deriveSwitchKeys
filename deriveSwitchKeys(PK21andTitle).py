@@ -17,11 +17,11 @@ titlekek_source = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 
 def decrypt(keyName, sourceKey):
 	for key in range(len(master_keys)):
-		#Create our AES MasterKey
+		# Create our AES MasterKey
 		aes_masterKey = AES.new(uhx(master_keys[key]), AES.MODE_ECB)
-		#Use our AES MasterKey to Decrypt our Package2/TitleKek Source Key
+		# Use our AES MasterKey to Decrypt our Package2/TitleKek Source Key
 		dec_sourceKey = aes_masterKey.decrypt(uhx(sourceKey))
-		#Print out the Generated Package2/TitleKek Keys [MasterKey Enumerated]
+		# Print out the Generated Package2/TitleKek Keys [MasterKey Enumerated]
 		print('%s%d = %s' % (keyName, key, hx(dec_sourceKey).upper()))
 
 def main():
