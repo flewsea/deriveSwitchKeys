@@ -1,6 +1,8 @@
 # deriveSwitchKeys
 SocraticBliss [Mastarifla]
+
 Copyright 2018 All rights reserved
+
 Feel free to submit code changes/optimizations/updates
 
 Instructions for use [replace X's]
